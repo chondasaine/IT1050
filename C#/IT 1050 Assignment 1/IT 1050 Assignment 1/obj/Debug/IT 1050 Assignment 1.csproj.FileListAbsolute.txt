@@ -1,0 +1,10 @@
+C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.exe.config
+C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.exe
+C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.pdb
+C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.exe
+C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.pdb
+C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.exe.CodeAnalysisLog.xml
+C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.exe.lastcodeanalysissucceeded
+C:\Users\csaine\Desktop\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.exe.config
+C:\Users\csaine\Desktop\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.exe
+C:\Users\csaine\Desktop\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.pdb
