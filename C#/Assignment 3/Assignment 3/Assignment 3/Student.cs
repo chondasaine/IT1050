@@ -3,17 +3,15 @@ namespace Assignment_3
 {
     class Student
     {
-        private string StudentFirstName;
-        private string StudentLastName;
+        private string StudentName;
         private int Grade;
-        private Instructor Teacher;
+        private Instructor Name;
 
 
-        public Student(string StudentFirstName, string StudentLastName, string InstructorTeacher, int Grade)
+        public Student(string StudentName, Instructor Name, int Grade)
         {
-            this.StudentFirstName = StudentFirstName;
-            this.StudentLastName = StudentLastName;
-            this.Teacher = Instructor;
+            this.StudentName = StudentName;
+            this.Name = Name;
             this.Grade = 0;
         }
         public int SetGrade(int Grade)
@@ -22,14 +20,13 @@ namespace Assignment_3
         }
         public void PrintStudentInfor()
         {
-            string output = this.StudentFirstName;
-            output += " ";
-            output += this.StudentLastName;
+            string output = this.StudentName;
             output += " ";
             output += this.Grade;
             output += " ";
-            output += this.Teacher;
+            output += this.Name;
             System.Console.WriteLine(output);
             System.Console.ReadKey();
         }
+    }
 }

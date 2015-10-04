@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Assignment_3
 {
     class Instructor
     {
-        private string FirstName;
-        private string LastName;
+        private string Name;
         private string CourseName;
 
-        public Instructor(string FirstName, string LastName,  string CourseName)
+        public Instructor(string Name, string CourseName)
         {
-            this.FirstName = FirstName;
-            this.LastName = LastName;
+            this.Name = Name;
             this.CourseName = CourseName;
         }
 
@@ -25,9 +18,7 @@ namespace Assignment_3
         }
         public void PrintInstructorInfor()
         {
-            string output = this.FirstName;
-            output += " ";
-            output += this.LastName;
+            string output = this.Name;
             output += " ";
             output += this.CourseName;
             System.Console.WriteLine(output);
