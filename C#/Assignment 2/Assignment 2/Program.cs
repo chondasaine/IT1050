@@ -7,35 +7,55 @@ namespace Assignment_2
         static void Main(string[] args)
         {
             Person person1 = new Person();
+            person1.GatherPersonDetails();
+            Person.Count++;
+           
+            System.Console.WriteLine("Person 1#:" + " " + person1.GetFullName() + "Person #1:" + " " + person1.GetAge() + "Person #1:" + person1.IsMarried());
+
+            if (person1.IsMarried() == true)
+            {
+                
+            Person personspouse1 = new Person();
+            personspouse1.GetSpouseNameAndAge();
+            Person.Count++;
+            System.Console.WriteLine("Person 1#:" + " " + personspouse1.FirstName + " " + personspouse1.Age); 
+
+            }
+
             Person person2 = new Person();
-            Person person3 = new Person();
+            person2.GatherPersonDetails();
             Person.Count++;
 
-            Spouse spouse1 = new Spouse();
-            Spouse spouse2 = new Spouse();
-            Spouse spouse3 = new Spouse();
-            Spouse.Count++;
+            System.Console.WriteLine("Person 2#:" + " " + person2.GetFullName() + "Person #2:" + " " + person2.GetAge() + "Person #2:" + person2.IsMarried());
 
-            System.Console.WriteLine("Person 1#:" + " " + person1.GetFullName() + "Person #1:" + " " + person1.GetAge() + "Person #1:" + person1.GetMaritalStatus());
-            
-            if (person1.MaritalStatus == true)
+            if (person2.IsMarried() == true)
             {
-                System.Console.WriteLine(spouse1.GetSpouseNameAndAge()); 
+
+                Person personspouse2 = new Person();
+                personspouse2.GetSpouseNameAndAge();
+                Person.Count++;
+                System.Console.WriteLine("Person 2#:" + " " + personspouse2.FirstName + " " + personspouse2.Age);
+
             }
 
-            System.Console.WriteLine(person2.GetFullName());
-            System.Console.WriteLine(person2.GetAge());
-            System.Console.WriteLine(person2.GetMaritalStatus());
+            Person person3 = new Person();
+            person3.GatherPersonDetails();
+            Person.Count++;
 
-            if (person2.MaritalStatus == true)
+            System.Console.WriteLine("Person 3#:" + " " + person3.GetFullName() + "Person #3:" + " " + person3.GetAge() + "Person #3:" + person3.IsMarried());
+
+            if (person3.IsMarried() == true)
             {
-                System.Console.WriteLine(spouse2.GetSpouseNameAndAge());
+
+                Person personspouse3 = new Person();
+                personspouse3.GetSpouseNameAndAge();
+                Person.Count++;
+                System.Console.WriteLine("Person 3#:" + " " + personspouse3.FirstName + " " + personspouse3.Age);
+
             }
 
+           double.Parse(System.Console.WriteLine("Average Age:" + GetAverageAge()));
 
-
-
-            System.Console.WriteLine("The average age is = " + Person.GetAverageAge + ".");
 
         }
     }

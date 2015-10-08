@@ -12,7 +12,7 @@ namespace Assignment_3
         {
             this.StudentName = StudentName;
             this.Name = Name;
-            this.Grade = 0;
+            this.Grade = Grade;
         }
         public int SetGrade(int Grade)
         {

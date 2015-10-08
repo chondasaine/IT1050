@@ -8,3 +8,6 @@ C:\Users\csaine\Desktop\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1
 C:\Users\csaine\Desktop\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.exe.config
 C:\Users\csaine\Desktop\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.exe
 C:\Users\csaine\Desktop\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.pdb
+C:\Users\csaine\Desktop\IT1050\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\bin\Debug\IT 1050 Assignment 1.exe.config
+C:\Users\csaine\Desktop\IT1050\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.exe
+C:\Users\csaine\Desktop\IT1050\C#\IT 1050 Assignment 1\IT 1050 Assignment 1\obj\Debug\IT 1050 Assignment 1.pdb
