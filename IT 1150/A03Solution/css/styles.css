@@ -1,0 +1,27 @@
+		
+			body  { background-image:url("../Images/paper.jpg");
+				
+				
+			}
+		
+			img {
+					border-style: solid;
+		     		border-color: #ff0000 #0000ff;
+			}
+		
+			p {
+				text-align: justify;
+			}
+		
+			h1 {
+		    		color: blue;
+			}
+		
+			h2 {
+		    		color: red;
+			}
+		
+			h3 {
+		    		color: purple;
+			}
+	
