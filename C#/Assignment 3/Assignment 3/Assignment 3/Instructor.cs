@@ -1,32 +1,45 @@
 ﻿
-namespace Assignment_3
+namespace Assignment3_REV
 {
     class Instructor
     {
-        private string Name;
-        private string CourseName;
+        private string Teacher;
+         private string CourseName;
 
-        public Instructor(string Name, string CourseName)
-        {
-            this.Name = Name;
-            this.CourseName = CourseName;
-        }
 
-        public string SetStudentGrade(string Student, int Grade)
+
+        public string GetTeacherName(string Teacher)
         {
-            return Student + " " + Grade;
+            return Teacher;
         }
+        public Instructor(string Teacher, string CourseName)
+         {
+            
+            this.Teacher = Teacher;
+            this.CourseName = CourseName; 
+         } 
+ 
+ 
+        public void SetStudentGrade(Student Student, int Grade)
+         { 
+             Student.StudentSetGrade(Grade); 
+         }
+
+
         public void PrintInstructorInfor()
-        {
-            string output = this.Name;
-            output += " ";
-            output += this.CourseName;
-            System.Console.WriteLine(output);
-            System.Console.ReadKey();
-
-
-        }
-    }
-
-
-}
+         { 
+             string output = this.Teacher; 
+             output += " "; 
+             output += this.CourseName; 
+             System.Console.WriteLine(output); 
+             System.Console.ReadKey(); 
+ 
+  
+ 
+        } 
+    } 
+ 
+ 
+ 
+ 
+ } 
