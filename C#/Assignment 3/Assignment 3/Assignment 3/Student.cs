@@ -1,32 +1,33 @@
 ﻿
-namespace Assignment_3
+namespace Assignment3_REV
 {
     class Student
     {
         private string StudentName;
         private int Grade;
-        private Instructor Name;
+        private Instructor Teacher;
 
+       
 
-        public Student(string StudentName, Instructor Name, int Grade)
+        public Student(string StudentName, Instructor Teacher)
         {
             this.StudentName = StudentName;
-            this.Name = Name;
-            this.Grade = Grade;
+            this.Teacher = Teacher;
+            this.Grade = 0;
         }
-        public int SetGrade(int Grade)
+       
+        public void StudentSetGrade( int grade)
         {
-            return Grade;
+            this.Grade = grade;
         }
+
         public void PrintStudentInfor()
         {
             string output = this.StudentName;
             output += " ";
             output += this.Grade;
             output += " ";
-            output += this.Name;
+            output += this.Teacher;
             System.Console.WriteLine(output);
             System.Console.ReadKey();
         }
-    }
-}
