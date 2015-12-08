@@ -1,0 +1,113 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Final_Exam
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            
+            Elevator elevator1 = new Elevator(2, 400);
+            Passenger A1 = new Passenger("A1", 180);
+            Passenger A2 = new Passenger("A2", 220);
+            elevator1.AddOccupant(A1, 0);
+            elevator1.AddOccupant(A2, 1);
+            elevator1.IsOverMaxCapacity();
+            bool elevator1IsOverMaxCapacity;
+            elevator1IsOverMaxCapacity = elevator1.IsOverMaxCapacity();
+
+            Elevator elevator2 = new Elevator(3, 600);
+            Passenger A3 = new Passenger("A1", 200);
+            Passenger A4 = new Passenger("A2", 200);
+            Passenger A5 = new Passenger("A3", 201);
+
+            elevator2.AddOccupant(A1, 0);
+            elevator2.AddOccupant(A2, 1);
+            elevator2.AddOccupant(A3, 2);
+            elevator2.IsOverMaxCapacity();
+            bool elevator2IsOverMaxCapacity;
+            elevator2IsOverMaxCapacity = elevator2.IsOverMaxCapacity();
+
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Final_Exam
+{
+    class Passenger
+    {
+        private string Name;
+        private double Weight;
+        public static double sumofweight = 0;
+        
+
+        public Passenger(string Name, double Weight)
+    {
+        this.Name = Name;
+        this.Weight = Weight;
+        sumofweight += Weight;
+    }
+
+        public  string GetName()
+    {
+        return this.Name;
+    }
+
+        public double GetWeight()
+        {
+            return this.Weight;
+        }
+        
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace Final_Exam
+{
+    class Elevator
+    {
+        private double MaxWeight;
+        private Passenger [] Occupants;
+        
+        public Elevator(int MaxOccupants, double MaxWeight)
+        {
+            Occupants = new Passenger[MaxOccupants];
+            this.MaxWeight = MaxWeight;
+        }
+
+        public void AddOccupant(Passenger passenger, int index)
+        {
+            Occupants = new Passenger[index];
+            
+        }
+ 
+        public double GetCurrentWeight()
+        {
+            return Passenger.sumofweight;
+        }
+
+        public bool IsOverMaxCapacity()
+        {
+
+            if (GetCurrentWeight() > MaxWeight)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+}
